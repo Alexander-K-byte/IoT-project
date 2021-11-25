@@ -1,5 +1,5 @@
 # IoT-project
-design facial recognition system with ultrasonic distance sensor interface
+design facial recognition system with ultrasonic distance sensor interface on Raspberry pi 4b.  </br>  
 (once we have working prototype, script will be uploaded)
 
 ## Concept
