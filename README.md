@@ -1,5 +1,6 @@
 # IoT-project
 design facial recognition system with ultrasonic distance sensor interface
+(once we have working prototype, script will be uploaded)
 
 ## Concept
 Tasked with coming up with unique prototype to demonstrate IoT knowledge gained during course, this is a collaboration between me (Alexander Kerr) and my class colleague, Toni Mansikka.
