@@ -19,3 +19,13 @@ Facial recognition will be done using openCV and facial recognition software ava
 - After getting nowhere for a long time, we attempted downloading the older version of Raspbian, once the old repositories were ok'd we were able to build openCV with required dependencies from source.  At this point we discovered that PiCamera appears to be broken.
 - 21/11/2021 Progress to date, since installing old OS we have now installed openCV, changed PiCamera to USB version so that we can build a working prototype, trained the model to recognize 2 users, added Ultrasonic distance sensor interface and configured it with some basic actions that run on specific user being identified.
 - 07/11/2021 Unable to implement unknown user actions "yet", however we added a second distance sensor so now we can have a left and right hand user.  Updated code so that we can open web pages based on distance.  Distance is printed to console and a "break" was added so that we can log-out of the loop.
+
+## Current Status
+Code uses 2 ultrasonic distance sensors and USB camera, will recognize users based on trained model, if user recognized, await input from distance sensor, since we have done the code this way, we also have a "break" loop action added so we can stop the loop.  When user is not recognized, just displays unknown.
+
+## To Do...
+- Swap to pi camera module
+- include 1 or 2 minor actions for Unknown
+- Disable usb ports until user is recognized (will prevent anyone from using peripherals until recognized)
+- Code some proper actions other than (open web page)
+- Once code is tested extensively and working, initd the script so it will run at boot, this would prevent anyone powering off and on to bypass the disabled usb ports.
